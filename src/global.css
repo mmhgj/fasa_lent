@@ -1,0 +1,162 @@
+/** **************************************
+* Fonts: app
+*************************************** */
+@import '@fontsource/public-sans/400.css';
+@import '@fontsource/public-sans/500.css';
+@import '@fontsource/public-sans/600.css';
+@import '@fontsource/public-sans/700.css';
+@import '@fontsource/public-sans/800.css';
+
+@import '@fontsource/barlow/400.css';
+@import '@fontsource/barlow/500.css';
+@import '@fontsource/barlow/600.css';
+@import '@fontsource/barlow/700.css';
+@import '@fontsource/barlow/800.css';
+
+/** **************************************
+* Fonts: options
+*************************************** */
+@import '@fontsource/dm-sans/400.css';
+@import '@fontsource/dm-sans/500.css';
+@import '@fontsource/dm-sans/600.css';
+@import '@fontsource/dm-sans/700.css';
+@import '@fontsource/dm-sans/800.css';
+
+@import '@fontsource/inter/400.css';
+@import '@fontsource/inter/500.css';
+@import '@fontsource/inter/600.css';
+@import '@fontsource/inter/700.css';
+@import '@fontsource/inter/800.css';
+
+@import '@fontsource/nunito-sans/400.css';
+@import '@fontsource/nunito-sans/500.css';
+@import '@fontsource/nunito-sans/600.css';
+@import '@fontsource/nunito-sans/700.css';
+@import '@fontsource/nunito-sans/800.css';
+
+/** **************************************
+* Plugins
+*************************************** */
+/* scrollbar */
+@import './components/scrollbar/styles.css';
+
+/* image */
+@import './components/image/styles.css';
+
+/* map */
+@import './components/map/styles.css';
+
+/* lightbox */
+@import './components/lightbox/styles.css';
+
+/* chart */
+@import './components/chart/styles.css';
+
+/** **************************************
+* Baseline
+*************************************** */
+html {
+  height: 100%;
+  -webkit-overflow-scrolling: touch;
+  font-family: var(--font-iransans), Arial, sans-serif !important; /* Fallbacks included */
+}
+body,
+#root,
+#root__layout {
+  display: flex;
+  flex: 1 1 auto;
+  min-height: 100%;
+  flex-direction: column;
+}
+img {
+  max-width: 100%;
+  vertical-align: middle;
+}
+ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+input[type='number'] {
+  -moz-appearance: textfield;
+  appearance: none;
+}
+input[type='number']::-webkit-outer-spin-button {
+  margin: 0;
+  -webkit-appearance: none;
+}
+input[type='number']::-webkit-inner-spin-button {
+  margin: 0;
+  -webkit-appearance: none;
+}
+
+.rtl-f5czck-MuiStack-root {
+  padding: 0px !important;
+}
+
+.rtl-1faefj7-MuiStack-root {
+  padding-top: 0px !important;
+}
+
+.MuiBox-root.rtl-1gcm7b5,
+.rtl-nhuv61,
+.MuiStack-root.rtl-xe2m7m-MuiStack-root,
+.rtl-17hr0xh {
+  display: none;
+}
+
+.MuiTypography-root,
+.MuiBox-root,
+.rtl-1p32ey4-MuiTypography-root,
+.MuiStack-root,
+.MuiBadge-badge,
+.MuiContainer-root,
+.MuiButtonBase-root {
+  font-family: var(--font-iransans), Arial, sans-serif !important; /* Fallbacks included */
+}
+
+.MuiContainer-root * {
+  font-family: var(--font-iransans), Arial, sans-serif !important; /* Fallbacks included */
+}
+
+.rtl-q0x0vq-MuiStack-root {
+  padding-top: 100px;
+}
+
+.rtl-pk8xm5-MuiStack-root {
+  padding-bottom: 0px;
+}
+
+.rtl-tcocwy-MuiContainer-root,
+.rtl-kzn0d4 {
+  padding: 0px !important;
+}
+
+.colleagues_section img,
+.colleagues_section .mnl__image__root,
+.colleagues_section .mnl__image__wrapper {
+  max-height: 170px;
+}
+
+.MuiContainer-root {
+  direction: rtl !important;
+}
+
+.rtl-1ebgrwm {
+  padding: 35px 0px 15px;
+}
+
+.text {
+  color: var(--palette-text-primary) !important;
+}
+
+.MuiBox-root.rtl-187uufv {
+  width: 150px !important;
+  border-radius: 20px;
+  margin-top: 20px;
+}
+
+.mnl__image__wrapper {
+  display: flex !important;
+  justify-content: center;
+}
